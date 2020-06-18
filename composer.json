@@ -1,0 +1,17 @@
+{
+    "name": "ethereal/kmiruz-crm",
+    "description": "The PHP Development Web Framework",
+    "type": "project",
+    "require": {
+        "php": "^7.2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Ethereal\\": "src/Ethereal/"
+        },
+        "files": [
+            "src/Ethereal/Support/helpers.php"
+        ]
+    }
+}
